@@ -1,9 +1,9 @@
 {
-  "name": "blake2",
-  "version": "1.4.0",
-  "description": "All four BLAKE2 variants (blake2b, blake2bp, blake2s, blake2sp) for node 4+ with stream support",
-  "homepage": "https://github.com/ludios/node-blake2",
-  "issues": "https://github.com/ludios/node-blake2/issues",
+  "name": "blake2_n",
+  "version": "1.0.0",
+  "description": "Computes blake2b N times, usefull for hash-based signatures.",
+  "homepage": "https://github.com/hrissan/node-blake2_n",
+  "issues": "https://github.com/hrissan/node-blake2_n/issues",
   "keywords": [
     "crypto",
     "hash",
@@ -15,10 +15,7 @@
     "blake2sp"
   ],
   "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha tests/*.js && ./node_modules/.bin/eslint .",
-    "test-strong-mode": "node --strong-mode ./node_modules/.bin/_mocha tests/*.js"
-  },
+  "scripts": {},
   "dependencies": {
     "nan": "^2.0.0"
   },
@@ -26,9 +23,9 @@
     "eslint": "^1.0.0",
     "mocha": "^2.2.5"
   },
-  "author": "Ivan Kozik",
+  "author": "Hrissan",
   "license": "ISC",
-  "repository": "ludios/node-blake2",
+  "repository": "hrissan/node-blake2_n",
   "engines": {
     "node": ">= 4.0.0"
   }
